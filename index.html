@@ -77,6 +77,8 @@
         if(newnum){ location.href = location.pathname + '?wa=' + newnum; }
       });
 
+      <link rel="stylesheet" href="style.css">
+      
       // read wa param if present (for quick edit)
       const params = new URLSearchParams(location.search);
       if(params.has('wa')){
